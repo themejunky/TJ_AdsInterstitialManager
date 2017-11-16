@@ -41,11 +41,11 @@ public class MainActivity extends AppCompatActivity implements ListenerAds,View.
         rate.setOnClickListener(this);
         getMore.setOnClickListener(this);
 
-        mam = Module_AdsManager.getInstance(this,this);
+        mam = Module_AdsManager.getInstance(this,this,false);
         ((MainApplication) getApplication()).Mam = mam;
         mam.setLog("TestLogs");
         mam.initInterstitialAdmobAds("ca-app-pub-5322508131338449/2877444211");
-        mam.initInterstitialFacebookAds("698838770248387_848026318662964");
+        //mam.initInterstitialFacebookAds("698838770248387_848026318662964");
         mam.initInterstitialAppNextAds("8106d659-a20b-4640-943b-d6b0aab18d08");
 
     }

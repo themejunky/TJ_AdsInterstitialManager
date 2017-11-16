@@ -1,3 +1,4 @@
+/*
 package module.themejunky.com.adsmanager.ads;
 
 import android.app.Activity;
@@ -13,9 +14,11 @@ import module.themejunky.com.adsmanager.util.ListenerAds;
 import module.themejunky.com.adsmanager.util.ListenerLogs;
 
 
+*/
 /**
  * Created by Junky2 on 4/28/2017.
- */
+ *//*
+
 
 public class FacebookAds  {
 
@@ -105,3 +108,4 @@ public class FacebookAds  {
 
 
 }
+*/
